@@ -1,3 +1,33 @@
-body{
-  background-color: tomato;
+* {
+	transition: 0.5s ease;
 }
+
+li {
+	display: inline-block;
+	text-align: center;
+	margin: 0 25px;
+}
+
+ul {
+	padding-left: 0;
+}
+
+a {
+	color: orange;
+	text-decoration: none;
+}
+
+nav {
+	background-color: blue;
+	text-align: center;
+	padding: 25px;
+}
+
+li:hover {
+	background-color: white;
+}
+
+li:hover a {
+	color: purple;
+}
+
